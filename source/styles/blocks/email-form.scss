@@ -6,10 +6,20 @@
 
 }
 
-.email-form__input{
-
+.email-form__input {
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: $base-color-text;
 }
 
-.email-form__button {
 
+.email-form__button {
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+  border: none;
+  color: #ffffff;
+  background: #68b738;
 }

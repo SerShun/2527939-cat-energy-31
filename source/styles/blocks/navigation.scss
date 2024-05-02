@@ -1,5 +1,6 @@
-.navigation{
-
+.navigation {
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
 }
 
 .navigation__toggle{
@@ -24,6 +25,10 @@
 
 .navigation__item {
 
+}
+
+.navigation__item-link {
+  color: #000000;
 }
 
 .navigation__item--active {

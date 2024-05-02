@@ -10,14 +10,25 @@
 
 }
 
-.address__slogan{
-
+.address__slogan {
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #111111;
 }
 
-.address__street{
-
+.address__street {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-style: normal;
+  color: $base-color-text;
 }
 
-.address__city{
-
+.address__city {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-style: normal;
+  color: $base-color-text;
 }
