@@ -1,27 +1,7 @@
-.cards-list{
-
-}
-
-.cards-list__item{
-
-}
-
 .cards-list__item-link {
   font-size: 16px;
   line-height: 20px;
   color: #222222;
-}
-
-.cards-list__item-image{
-
-}
-
-.cards-list__item-info{
-
-}
-
-.cards-list__item-title{
-
 }
 
 .cards-list__item-weight {
@@ -31,24 +11,8 @@
 }
 
 .cards-list__item-description {
-  font-family: "Lato", sans-serif;
+  font-family: $font-secondary;
   font-size: 12px;
   line-height: 16px;
   color: $base-color-text;
-}
-
-.cards-list__item-definition{
-
-}
-
-.cards-list__item-term{
-
-}
-
-.cards-list__item-span{
-
-}
-
-.cards-list__order{
-
 }

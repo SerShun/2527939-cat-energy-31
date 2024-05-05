@@ -8,17 +8,9 @@
 }
 
 .example__text {
-  font-family: "Lato", sans-serif;
+  font-family: $font-secondary;
   font-size: 14px;
   line-height: 18px;
-}
-
-.example__list{
-
-}
-
-.example__list-item{
-
 }
 
 .example__list-numbers {
@@ -28,7 +20,7 @@
 }
 
 .example__list-text {
-  font-family: "Lato", sans-serif;
+  font-family: $font-secondary;
   font-size: 12px;
   line-height: 12px;
   color: $base-color-text;

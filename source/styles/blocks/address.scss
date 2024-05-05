@@ -1,15 +1,3 @@
-.addrress {
-
-}
-
-.address__map-mob{
-
-}
-
-.address__info{
-
-}
-
 .address__slogan {
   font-size: 16px;
   line-height: 20px;
@@ -18,7 +6,7 @@
 }
 
 .address__street {
-  font-family: "Lato", sans-serif;
+  font-family: $font-secondary;
   font-size: 14px;
   line-height: 20px;
   font-style: normal;
@@ -26,7 +14,7 @@
 }
 
 .address__city {
-  font-family: "Lato", sans-serif;
+  font-family: $font-secondary;
   font-size: 14px;
   line-height: 20px;
   font-style: normal;

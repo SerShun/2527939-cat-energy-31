@@ -1,15 +1,3 @@
-.goods-list{
-
-}
-
-.goods-list__subject{
-
-}
-
-.goods-list__subject-title{
-
-}
-
 .goods-list__subject-link {
   font-size: 16px;
   line-height: 16px;
@@ -18,8 +6,8 @@
 }
 
 .goods-list__features-item {
-  font-family: "Lato", sans-serif;
-  font-style: 14px;
+  font-family: $font-secondary;
+  font-size: 14px;
   line-height: 14px;
   color: $base-color-text;
 }
