@@ -54,6 +54,13 @@
   color: $base-color-text;
 }
 
+.address__street-span {
+  @media (min-width: $tablet-width) {
+    display: block;
+    margin-bottom: 26px;
+  }
+}
+
 .address__map {
   @media (min-width: $desktop-width) {
     top: 0;
@@ -66,4 +73,12 @@
 .address__map-mob {
   display: block;
   position: relative;
+}
+
+.address__location {
+  height: 362px;
+
+  @media (min-width: $tablet-width) {
+    height: 400px;
+  }
 }

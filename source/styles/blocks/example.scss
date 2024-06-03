@@ -37,9 +37,8 @@
 .example__wrapper {
   @media (min-width: $tablet-width) {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 230px;
+    flex-direction: column;
+    margin: 0 auto 230px;
     width: 708px;
   }
 
@@ -49,6 +48,19 @@
     margin: 0;
     width: 436px;
     height: 523px;
+  }
+}
+
+.example__inner-wrapper {
+  display: flex;
+
+  @media (min-width: $tablet-width) {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  @media (min-width: $desktop-width) {
+    flex-direction: column;
   }
 }
 

@@ -132,6 +132,14 @@
   border: none;
   background: #68b738;
 
+  &:hover {
+    background: #5eaa2f;
+  }
+
+  &:active {
+    color: rgba(#ffffff, 0.3);
+  }
+
   @media (min-width: $tablet-width) {
     width: 256px;
   }
